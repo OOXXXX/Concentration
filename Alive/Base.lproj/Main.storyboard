@@ -52,7 +52,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="flipCounts" destination="RB9-4m-Rpu" id="4HK-Kt-Mgw"/>
+                        <outlet property="flipCountLabel" destination="RB9-4m-Rpu" id="JwS-NA-Q98"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
