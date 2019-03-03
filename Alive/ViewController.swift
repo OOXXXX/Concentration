@@ -15,12 +15,25 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    var flipCounts = 0 {
+        didSet {
+            flipCountLabel.text = "Counts: \(flipCounts)"
+        }
+    }
+    
+    @IBOutlet weak var flipCountLabel: UILabel!
+    
     @IBAction func touchCard(_ sender: UIButton) {
+        flipCounts += 1
         flipCard(withEmoji: "👻", on: sender)
+        
+        
     }
     
     @IBAction func secondTouchCard(_ sender: UIButton) {
+        flipCounts += 1
         flipCard(withEmoji: "🎃", on: sender)
+        
     }
     func flipCard(withEmoji emoji: String, on button: UIButton) {
         if button.currentTitle == emoji {
