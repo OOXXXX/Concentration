@@ -11,13 +11,16 @@ import UIKit
 class ViewController: UIViewController
 {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    var flipCounts = 0 {
-        didSet {
+    var flipCounts = 0
+    {
+        didSet
+        {
             flipCountLabel.text = "Counts: \(flipCounts)"
         }
     }
@@ -25,7 +28,8 @@ class ViewController: UIViewController
     @IBOutlet weak var flipCountLabel: UILabel!
     
     
-    @IBAction func touchCard(_ sender: UIButton) {
+    @IBAction func touchCard(_ sender: UIButton)
+    {
         flipCounts += 1
         flipCard(withEmoji: "👻", on: sender)
         
