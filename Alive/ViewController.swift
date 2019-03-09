@@ -42,6 +42,13 @@ class ViewController: UIViewController
         flipCard(withEmoji: "🎃", on: sender)
         
     }
+    
+    @IBAction func thirdTouchCard(_ sender: UIButton)
+    {
+        flipCounts += 1
+        flipCard(withEmoji: "🐵", on: sender)
+    }
+    
     func flipCard(withEmoji emoji: String, on button: UIButton)
     {
         if button.currentTitle == emoji
