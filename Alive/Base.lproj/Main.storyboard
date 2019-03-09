@@ -66,7 +66,7 @@
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="🐷"/>
                                 <connections>
-                                    <action selector="secondTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jg4-aK-MKI"/>
+                                    <action selector="fourthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLu-99-WQh"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counts: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJb-z6-2n9">
@@ -84,7 +84,7 @@
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="🐔"/>
                                 <connections>
-                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r3i-cn-osT"/>
+                                    <action selector="fifthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMg-hv-fDf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counts: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8w7-p0-Nm5">
@@ -102,7 +102,7 @@
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="🐶"/>
                                 <connections>
-                                    <action selector="secondTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IDb-Dk-13Q"/>
+                                    <action selector="sixthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8A-5A-wPp"/>
                                 </connections>
                             </button>
                         </subviews>

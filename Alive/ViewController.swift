@@ -32,8 +32,7 @@ class ViewController: UIViewController
     {
         flipCounts += 1
         flipCard(withEmoji: "👻", on: sender)
-        
-        
+    
     }
     
     @IBAction func secondTouchCard(_ sender: UIButton)
@@ -48,6 +47,26 @@ class ViewController: UIViewController
         flipCounts += 1
         flipCard(withEmoji: "🐵", on: sender)
     }
+    
+    
+    @IBAction func fourthTouchCard(_ sender: UIButton) {
+        flipCounts += 1
+        flipCard(withEmoji: "🐷", on: sender)
+    }
+    
+    
+    @IBAction func fifthTouchCard(_ sender: UIButton)
+    {
+        flipCounts += 1
+        flipCard(withEmoji: "🐔", on: sender)
+    }
+    
+    @IBAction func sixthTouchCard(_ sender: UIButton)
+    {
+        flipCounts += 1
+        flipCard(withEmoji: "🐶", on: sender)
+    }
+    
     
     func flipCard(withEmoji emoji: String, on button: UIButton)
     {
