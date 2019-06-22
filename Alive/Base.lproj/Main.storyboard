@@ -37,6 +37,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="👻"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNK-aF-86n"/>
                                                 </connections>
@@ -47,6 +52,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🎃"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="secondTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nRC-D1-YWZ"/>
                                                 </connections>
@@ -57,6 +67,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐵"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="thirdTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4yc-Rz-Vxf"/>
                                                 </connections>
@@ -72,6 +87,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐷"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="fourthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mLu-99-WQh"/>
                                                 </connections>
@@ -82,6 +102,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐔"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="fifthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMg-hv-fDf"/>
                                                 </connections>
@@ -92,6 +117,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐶"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="sixthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8A-5A-wPp"/>
                                                 </connections>
@@ -112,6 +142,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="👻"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yaJ-3q-Gwv"/>
                                                 </connections>
@@ -122,6 +157,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🎃"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="secondTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dvZ-i9-0q8"/>
                                                 </connections>
@@ -132,6 +172,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐵"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="thirdTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ptw-pC-Tar"/>
                                                 </connections>
@@ -147,6 +192,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐷"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="fourthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L7C-CC-Wf4"/>
                                                 </connections>
@@ -157,6 +207,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐔"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="fifthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FzQ-wR-3hN"/>
                                                 </connections>
@@ -167,6 +222,11 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                 <size key="titleShadowOffset" width="1" height="1"/>
                                                 <state key="normal" title="🐶"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <integer key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="sixthTouchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GCW-YP-ihp"/>
                                                 </connections>
