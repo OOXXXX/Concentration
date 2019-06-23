@@ -32,7 +32,11 @@ class ViewController: UIViewController
     {
         flipCounts += 1
         flipCard(withEmoji: "👻", on: sender)
-    
+        
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.impactOccurred()
+        
+            
     }
     
     @IBAction func secondTouchCard(_ sender: UIButton)
@@ -40,18 +44,28 @@ class ViewController: UIViewController
         flipCounts += 1
         flipCard(withEmoji: "🎃", on: sender)
         
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
+        
+        
     }
     
     @IBAction func thirdTouchCard(_ sender: UIButton)
     {
         flipCounts += 1
         flipCard(withEmoji: "🐵", on: sender)
+        
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.warning)
     }
     
     
     @IBAction func fourthTouchCard(_ sender: UIButton) {
         flipCounts += 1
         flipCard(withEmoji: "🐷", on: sender)
+        
+        let generator = UISelectionFeedbackGenerator()
+        generator.selectionChanged()
     }
     
     
@@ -59,12 +73,18 @@ class ViewController: UIViewController
     {
         flipCounts += 1
         flipCard(withEmoji: "🐔", on: sender)
+        
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.impactOccurred()
     }
     
     @IBAction func sixthTouchCard(_ sender: UIButton)
     {
         flipCounts += 1
         flipCard(withEmoji: "🐶", on: sender)
+        
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+        generator.impactOccurred()
     }
     
     
